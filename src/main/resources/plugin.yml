@@ -1,0 +1,28 @@
+name: Just2FA
+version: '1.0.0'
+main: J2FA.just2FA.Just2FA
+api-version: 1.13
+description: Secure 2FA authentication plugin for Minecraft servers
+author: Cobra4
+softdepend: [WorldGuard, WorldEdit]
+commands:
+  2fa:
+    description: Main 2FA command
+    usage: /2fa <setup|verify|remove|admin>
+    aliases: [auth, authenticator]
+permissions:
+  just2fa.use:
+    description: Allows players to use 2FA
+    default: true
+  just2fa.bypass:
+    description: Bypasses 2FA requirement
+    default: false
+  just2fa.admin:
+    description: Administrative permissions
+    default: op
+  just2fa.admin.remove:
+    description: Remove 2FA from other players
+    default: op
+  just2fa.admin.reload:
+    description: Reload plugin configuration
+    default: op

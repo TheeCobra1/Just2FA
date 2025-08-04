@@ -1,0 +1,79 @@
+authentication:
+  issuer: "Just2FA Server"
+  timeout: 300
+  code-length: 6
+  window-size: 3
+  secret-key-length: 256
+
+restrictions:
+  allow-movement: true
+  spawn-restriction:
+    enabled: false
+    radius: 5
+    freeze-at-spawn: false
+    teleport-to-spawn: false
+  blocked-actions:
+    - DAMAGE
+    - BLOCK_BREAK
+    - BLOCK_PLACE
+    - INTERACT
+    - INTERACT_ENTITY
+    - INVENTORY_CLICK
+    - ITEM_DROP
+    - ITEM_PICKUP
+    - TELEPORT
+    - PORTAL
+    - CHAT
+    - COMMAND
+    - VEHICLE_ENTER
+    - VEHICLE_EXIT
+    - CONSUME
+    - CRAFT
+    - ENCHANT
+    - TRADE
+    - FISH
+
+messages:
+  prefix: "&8[&6Just2FA&8] &7"
+  authentication-required: "&cYou must authenticate with 2FA to continue playing!"
+  setup-start: "&aStarting 2FA setup process..."
+  setup-qr-code: "&aScan this QR code with your authenticator app:"
+  setup-manual-key: "&7Manual key: &e%key%"
+  setup-verify: "&aPlease enter the code from your authenticator to complete setup:"
+  setup-complete: "&a2FA has been successfully set up for your account!"
+  verify-prompt: "&ePlease enter your 2FA code to authenticate:"
+  verify-success: "&aAuthentication successful! Welcome back!"
+  verify-failure: "&cInvalid code. Please try again."
+  already-setup: "&cYou already have 2FA enabled!"
+  not-setup: "&cYou don't have 2FA set up yet!"
+  removed: "&a2FA has been removed from your account."
+  admin-removed: "&a2FA has been removed from %player%'s account."
+  player-not-found: "&cPlayer not found or hasn't set up 2FA."
+  no-permission: "&cYou don't have permission to use this command!"
+  reload-success: "&aConfiguration reloaded successfully!"
+  timeout-warning: "&eYou have %time% seconds to authenticate before being kicked."
+  kicked-timeout: "&cYou were kicked for not authenticating in time."
+
+storage:
+  type: "FILE"
+  encryption: true
+  file-path: "data/players.dat"
+
+security:
+  max-attempts: 5
+  lockout-time: 300
+  require-2fa: false
+  kick-on-timeout: true
+  prevent-same-ip-bypass: true
+
+qr-code:
+  size: 256
+  margin: 1
+  show-chat: false
+  give-map: true
+
+worldguard:
+  enabled: true
+  flags:
+    require-2fa: "require-2fa"
+    bypass-2fa: "bypass-2fa"
