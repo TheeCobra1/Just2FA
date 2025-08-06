@@ -194,16 +194,6 @@ When WorldGuard is installed, Just2FA adds custom flags:
 - Check flag permissions
 - Reload both plugins
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
-
-### Development Setup
-1. Clone the repository
-2. Import as Maven project
-3. Build with `mvn clean package`
-4. Test on a local server
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -221,6 +211,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📈 Version History
 
+- **1.0.1** - Current version
+  - Bug fixes and performance improvements
+  - Enhanced security features
+  
 - **1.0.0** - Initial release with full feature set
   - Google Authenticator integration
   - Map-based QR codes
