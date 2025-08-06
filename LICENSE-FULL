@@ -1,0 +1,141 @@
+JUST2FA SOFTWARE LICENSE AGREEMENT
+
+Version 1.0, January 2025
+
+Copyright (c) 2025 TheeCobra1. All rights reserved.
+
+DEFINITIONS:
+- "Software" refers to the Just2FA Minecraft plugin, including all source code, 
+  documentation, and associated files.
+- "Licensor" refers to TheeCobra1, the original author and copyright holder.
+- "You" refers to the individual or entity exercising permissions granted by this License.
+- "Derivative Works" refers to any work based on the Software.
+- "Commercial Use" refers to any use intended for commercial advantage or monetary compensation.
+
+1. GRANT OF LICENSE
+Subject to the terms and conditions of this License Agreement, the Licensor hereby 
+grants You a worldwide, royalty-free, non-exclusive, perpetual license to:
+   a) Use the Software for any purpose, including commercial purposes
+   b) Modify, adapt, and create Derivative Works based on the Software
+   c) Distribute copies of the Software and Derivative Works
+   d) Sublicense the Software to third parties
+   e) Incorporate the Software into Your own projects
+
+2. CONDITIONS
+Your exercise of the rights granted above is subject to the following conditions:
+
+   2.1 Attribution
+   - You must retain all copyright notices in the Software
+   - You must provide appropriate credit to the original author (TheeCobra1)
+   - You must indicate if changes were made to the original Software
+   - Attribution should be included in:
+     * Source code files where modifications were made
+     * Documentation accompanying distributions
+     * About/Credits sections if the Software includes a user interface
+
+   2.2 Derivative Works
+   - You may create and distribute Derivative Works under any license of Your choice
+   - Derivative Works must clearly state they are modified versions
+   - You must not misrepresent the origin of the Software
+   - The original author's name may not be used to endorse Derivative Works 
+     without explicit permission
+
+   2.3 Distribution
+   - When distributing the Software or Derivative Works, You must:
+     * Include a copy of this License
+     * Provide access to the source code (if distributing binaries)
+     * Not impose additional restrictions beyond those in this License
+
+3. INTELLECTUAL PROPERTY
+   - The Software and all intellectual property rights therein remain the property 
+     of the Licensor
+   - This License does not grant permission to use trade names, trademarks, or 
+     service marks of the Licensor
+   - Patent rights, if any, are not granted under this License
+
+4. CONTRIBUTIONS
+   - Any contributions You make to the Software (via pull requests, patches, etc.) 
+     are automatically licensed under the same terms as this License
+   - You represent that You have the right to grant such license
+   - You agree that Your contributions may be incorporated into future versions
+
+5. WARRANTY DISCLAIMER
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
+PARTICULAR PURPOSE, AND NONINFRINGEMENT. THE LICENSOR MAKES NO WARRANTY THAT:
+   - The Software will meet Your requirements
+   - The Software will be uninterrupted, timely, secure, or error-free
+   - The results obtained from use of the Software will be accurate or reliable
+   - Any defects in the Software will be corrected
+
+6. LIMITATION OF LIABILITY
+IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, 
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, 
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; 
+BUSINESS INTERRUPTION; LOSS OF GOODWILL; OR COMPUTER FAILURE OR MALFUNCTION) 
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE 
+POSSIBILITY OF SUCH DAMAGES.
+
+7. INDEMNIFICATION
+You agree to indemnify, defend, and hold harmless the Licensor from and against 
+any claims, damages, losses, and expenses (including legal fees) arising from:
+   - Your use or distribution of the Software
+   - Your violation of this License
+   - Your violation of any rights of third parties
+   - Any harm caused by Your Derivative Works
+
+8. EXPORT COMPLIANCE
+You acknowledge that the Software may be subject to export laws and regulations. 
+You agree to comply with all applicable international and national laws that apply 
+to the Software, including export restrictions and end-user restrictions.
+
+9. TERMINATION
+   9.1 This License is effective until terminated
+   9.2 Your rights under this License will terminate automatically if You fail 
+       to comply with any of its terms
+   9.3 Upon termination, You must:
+       - Cease all use and distribution of the Software
+       - Destroy all copies in Your possession
+       - Remove the Software from any servers or systems under Your control
+
+10. GOVERNING LAW
+This License shall be governed by and construed in accordance with the laws of 
+the United States and the State of California, without regard to conflict of law 
+principles. Any legal action related to this License shall be brought exclusively 
+in the courts located in California.
+
+11. SEVERABILITY
+If any provision of this License is held to be unenforceable, such provision shall 
+be reformed only to the extent necessary to make it enforceable, and the remaining 
+provisions shall continue in full force and effect.
+
+12. ENTIRE AGREEMENT
+This License constitutes the entire agreement between the parties concerning the 
+Software and supersedes all prior or contemporaneous agreements, whether written 
+or oral, concerning the Software.
+
+13. AMENDMENTS
+The Licensor reserves the right to publish revised versions of this License. Each 
+version will be distinguished by a version number. You may choose to use the Software 
+under the terms of any published version of the License.
+
+14. SPECIAL PROVISIONS FOR MINECRAFT SERVERS
+   - The Software is designed for use with Minecraft servers
+   - You acknowledge that use with Minecraft is subject to Mojang's End User License Agreement
+   - The Licensor is not affiliated with Mojang Studios or Microsoft
+   - This Software is not officially endorsed by Mojang or Microsoft
+
+15. CONTACT INFORMATION
+For questions about this License or permission requests, contact:
+   GitHub: https://github.com/TheeCobra1
+   Repository: https://github.com/TheeCobra1/Just2FA
+
+16. ACKNOWLEDGMENT
+BY USING, MODIFYING, OR DISTRIBUTING THE SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE 
+READ THIS LICENSE, UNDERSTAND IT, AND AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS.
+
+---
+
+END OF LICENSE AGREEMENT
+
+For a simplified version of this license, see the LICENSE file (MIT License).
